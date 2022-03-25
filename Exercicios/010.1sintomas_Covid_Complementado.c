@@ -2,24 +2,22 @@
 
 int main(){
 
-    int todosOsSintomas;
+    int todosOsSintomas, sintomasCovid=0,dorNoCorpo=0, dorDeCabeca=0,febreAlta=0;
 
-    int sintomasCovid=0;
         printf("Esta com sintomas, digite 1 para SIM, 0 para NAO\n");
 
-    int dorNoCorpo;
         printf("Esta com dor no corpo:");
         scanf("%d", &dorNoCorpo);
         if (dorNoCorpo == 1){
             todosOsSintomas++;
         }
-    int dorDeCabeca;
+
         printf("Sente dor de Cabeca:");
         scanf("%d", &dorDeCabeca);
         if(dorDeCabeca == 1){
                 todosOsSintomas++;
         }
-    int febreAlta;
+
         printf("Esta com febre alta tambem:");
         scanf("%d", &febreAlta);
 
